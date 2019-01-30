@@ -33,3 +33,9 @@ body{
     background-color: #dbb08d !important;
 }
 view raw
+
+.table .thead-dark th{
+    color:floralwhite;
+    background-color:#6E3F19
+}
+tr:hover {background-color:#dbb08db0!important}
