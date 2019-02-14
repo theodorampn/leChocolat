@@ -32,12 +32,16 @@
 
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span>
+                    <li class="nav-item active"><a class="nav-link" href="./index.html"><span
+                                class="fa fa-home fa-lg"></span>
                             Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span
+                                class="fa fa-info fa-lg"></span>
                             About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span
+                                class="fa fa-address-card fa-lg"></span>
                             Contact</a></li>
                 </ul>
             </div>
@@ -46,16 +50,23 @@
 
     <header class="jumbotron">
         <div class="container">
-            <div class="row row-header">
-                <div class="col-12 col-sm-8">
+            <div class="row row-header align-items-center">
+                <div class="col-12 col-sm-6">
                     <h1>Le Chocolat</h1>
                     <p>We combine experience with creativity to create innovative tastes based on classic chocolate
                         recipes. Our creations will travel you in the chocolate world!</p>
                 </div>
-                <div class="col col-sm">
+                <!--Logo-->
+                <div class="col col-sm-3">
                     <img src="images/logo.png" class="img-fluid">
                 </div>
+              <div class="col col-sm-3" >  <a  class="btn btn-primary  col-sm- bg-warning text-dark" href="#reserve-form">Reserve your baskets</a>
+            
+                <!-- -->
             </div>
+            </div>
+
+ 
         </div>
     </header>
 
@@ -68,9 +79,11 @@
             </div>
             <div class="col-sm col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/dark85.jpg" alt="85% DARK CHOCOLATE">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/dark85.jpg"
+                        alt="85% DARK CHOCOLATE">
                     <div class="media-body">
-                        <h2 class="mt-0">85% DARK CHOCOLATE <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-success">$0.99</span></h2>
+                        <h2 class="mt-0">85% DARK CHOCOLATE <span class="badge badge-danger">HOT</span> <span
+                                class="badge badge-pill badge-success">$0.99</span></h2>
                         <p class="col d-none d-md-block">Dark chocolate with no added sugar.
                             Here you can taste the flavor of cocoa beans.</p>
                     </div>
@@ -86,9 +99,11 @@
             </div>
             <div class="col-sm col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/promotion.jpg" alt="85% DARK CHOCOLATE">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/promotion.jpg"
+                        alt="85% DARK CHOCOLATE">
                     <div class="media-body">
-                        <h2 class="mt-0">Our basket <span class="badge badge-danger">NEW</span> <span class="badge badge-pill badge-success">$4.99</span></h2>
+                        <h2 class="mt-0">Our basket <span class="badge badge-danger">NEW</span> <span
+                                class="badge badge-pill badge-success">$4.99</span></h2>
                         <p class="col d-none d-md-block">This week we offer a basket with 10 delicious chocolates!</p>
                     </div>
 
@@ -104,7 +119,8 @@
 
             <div class="col-sm col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/cartoonVasilis.png" alt="Vasilis Wilson">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="images/cartoonVasilis.png"
+                        alt="Vasilis Wilson">
                     <div class="media-body">
                         <h2 class="mt-0">Vasilis Wilson</h2>
                         <p class="col d-none d-md-block">Vasilis is well informed of all the current
@@ -113,6 +129,94 @@
                 </div>
             </div>
         </div>
+
+        <!-- Reserve your Baskets -->
+        <div class="row row-content justify-content-center">
+            <div class="col-12 col-sm-8 ">
+                <div class="card border-default">
+
+                    <!-- Card Header -->
+                    <h3 class="card-header bg-warning text-white" id="reserve-form">Reserve your baskets</h3>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        
+                        <form>
+
+                            <!-- Radio buttons-->
+                            <div class="form-group row">
+                                <label for="optradio" class="col-12 col-sm-3 col-form-label">
+                                    Number of baskets
+                                </label>
+                                <div class="col-12 col-sm-9">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">1</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">2</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio3" value="option3">
+                                        <label class="form-check-label" for="inlineRadio3">3 </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio4" value="option4">
+                                        <label class="form-check-label" for="inlineRadio4">4</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio5" value="option5">
+                                        <label class="form-check-label" for="inlineRadio5">5</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio6" value="option6">
+                                        <label class="form-check-label" for="inlineRadio6">6 </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Date and Time-->
+                            <div class="form-group row">
+                                <label class="col-12 col-sm-3 col-form-label">Date and Time</label>
+                                 
+                                <!-- Date -->
+                                <div class="input-group col-12 col-sm-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="date"><i class="fa fa-calendar"
+                                                aria-hidden="true"></i></span>
+                                    </div>
+
+
+
+                                    <!---->
+                                    <input type="date" class="form-control" placeholder="Date" id="date'">
+                                </div>
+                                
+                                <!-- Time -->
+                                <div class="input-group col-12 col-sm-4">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="time"><i class="fa fa-clock-o"  
+                                                aria-hidden="true"></i></span> <!--fa-clock shows the clock!! fa-... to search for other by default icons-->
+                                    </div>
+                                    <input type="time" class="form-control" placeholder="Time" id="time'">
+                                </div>
+                            </div>
+
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary btn-sm col-sm-offset-2">Reserve</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 
